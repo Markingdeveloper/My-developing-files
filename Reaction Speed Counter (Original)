@@ -1,0 +1,25 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+//Compiler version g++ 6.3.0
+
+int main() {
+    float a,b;
+    
+    int c = (b-a)/10;
+    
+    cout << "Reaksiya sürət hesablayıcıyısına xoşgəlmisiniz." << endl;
+    
+    cout << "DİQQƏT! Bu proqram yalnız temperaturdan asılı olaraq sürətlənən reaksiyalara aiddir." << endl;
+    
+    cout << "Reaksiyanın getdiyi temperatur (20 kimi yazın): ";
+    
+    cin >> a;
+    
+    cout << "Reaksiyanın sürətləndiyi temperatur: ";
+    
+    cin >> b;
+      
+    cout << "Reaksiya " << pow(2,(b-a)/10) << " dəfə sürətlidir";
+}
