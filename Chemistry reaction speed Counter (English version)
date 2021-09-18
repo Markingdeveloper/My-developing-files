@@ -1,0 +1,25 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+//Compiler version g++ 6.3.0
+
+int main() {
+    float a,b;
+    
+    int c = (b-a)/10;
+    
+    cout << "Welcome to reaction speed counter." << endl;
+    
+    cout << "ATTENTION! This program only applies to temperature-accelerated reactions." << endl;
+    
+    cout << "The temperature at which the reaction took place (write as 20):";
+    
+    cin >> a;
+    
+    cout << "Temperature at which the reaction accelerates: ";
+    
+    cin >> b;
+      
+    cout << "The reaction is " << pow(2,(b-a)/10) << " times faster";
+}
